@@ -1,7 +1,7 @@
 Name: qt-theme-kvantum
 Summary: Kvantum - an SVG renderer for drawing Qt widgets - theme engine
-Version: 0.14.1
-Release: 3
+Version: 0.17.0
+Release: 1
 URL: https://github.com/tsujan/Kvantum
 Source0: https://github.com/tsujan/Kvantum/archive/V%{version}/Kvantum-%{version}.tar.gz
 Group: Graphical Desktop/KDE
@@ -136,6 +136,9 @@ rm -rf %{buildroot}%{_datadir}/kde4
 %{_datadir}/Kvantum/KvantumAlt
 %{_datadir}/color-schemes/Kvantum.colors
 %{_datadir}/color-schemes/KvantumAlt.colors
+%{_datadir}/Kvantum/KvMojaveMixed/KvMojaveMixed.kvconfig
+%{_datadir}/Kvantum/KvMojaveMixed/KvMojaveMixed.svg
+%{_datadir}/color-schemes/KvMojaveMixed.colors
 %{_datadir}/applications/kvantummanager.desktop
 %{_datadir}/icons/hicolor/scalable/apps/kvantum.svg
 %{_datadir}/themes/Kvantum
