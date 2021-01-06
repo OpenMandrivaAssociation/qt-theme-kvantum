@@ -142,3 +142,6 @@ rm -rf %{buildroot}%{_datadir}/kde4
 %{_datadir}/applications/kvantummanager.desktop
 %{_datadir}/icons/hicolor/scalable/apps/kvantum.svg
 %{_datadir}/themes/Kvantum
+%{_datadir}/Kvantum/KvMojaveMixed1/KvMojaveMixed1.kvconfig
+%{_datadir}/Kvantum/KvMojaveMixed1/KvMojaveMixed1.svg
+%{_datadir}/color-schemes/KvMojaveMixed1.colors
