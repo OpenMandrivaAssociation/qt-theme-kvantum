@@ -88,7 +88,7 @@ rm -rf %{buildroot}%{_datadir}/kde4
 %{_datadir}/Kvantum/KvCyan
 %{_datadir}/color-schemes/KvCyan.colors
 %{_datadir}/themes/KvCyan
-%{_datadir}/Kvantum/KvDark/KvDark
+%{_datadir}/Kvantum/KvDark
 %{_datadir}/color-schemes/KvDark.colors
 %{_datadir}/Kvantum/KvDarkRed
 %{_datadir}/color-schemes/KvDarkRed.colors
