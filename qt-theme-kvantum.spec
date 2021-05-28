@@ -88,6 +88,8 @@ rm -rf %{buildroot}%{_datadir}/kde4
 %{_datadir}/Kvantum/KvCyan
 %{_datadir}/color-schemes/KvCyan.colors
 %{_datadir}/themes/KvCyan
+%{_datadir}/Kvantum/KvDark/KvDark
+%{_datadir}/color-schemes/KvDark.colors
 %{_datadir}/Kvantum/KvDarkRed
 %{_datadir}/color-schemes/KvDarkRed.colors
 %{_datadir}/themes/KvDarkRed
@@ -129,6 +131,8 @@ rm -rf %{buildroot}%{_datadir}/kde4
 %{_datadir}/Kvantum/KvSimplicityDark
 %{_datadir}/color-schemes/KvSimplicityDark.colors
 %{_datadir}/themes/KvSimplicityDark
+%{_datadir}/Kvantum/KvSimplicityDarkLight
+%{_datadir}/color-schemes/KvSimplicityDarkLight.colors
 %{_datadir}/Kvantum/KvSimplicityTurquoise
 %{_datadir}/color-schemes/KvSimplicityTurquoise.colors
 %{_datadir}/Kvantum/KvYaru
