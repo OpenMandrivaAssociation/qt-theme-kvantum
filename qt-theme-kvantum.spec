@@ -81,6 +81,8 @@ rm -rf %{buildroot}%{_datadir}/kde4
 %{_datadir}/Kvantum/KvCurves
 %{_datadir}/color-schemes/KvCurves.colors
 %{_datadir}/Kvantum/KvCurves3d
+%{_datadir}/Kvantum/KvCurves3d1/KvCurves3d1
+%{_datadir}/color-schemes/KvCurves3d1.colors
 %{_datadir}/Kvantum/KvCurvesLight
 %{_datadir}/color-schemes/KvCurvesLight.colors
 %{_datadir}/themes/KvCurvesLight
