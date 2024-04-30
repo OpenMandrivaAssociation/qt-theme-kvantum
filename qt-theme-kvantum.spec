@@ -1,7 +1,7 @@
 Name: qt-theme-kvantum
 Summary: Kvantum - an SVG renderer for drawing Qt widgets - theme engine
-Version: 1.0.10
-Release: 2
+Version: 1.1.1
+Release: 1
 URL: https://github.com/tsujan/Kvantum
 Source0: https://github.com/tsujan/Kvantum/archive/V%{version}/Kvantum-%{version}.tar.gz
 Group: Graphical Desktop/KDE
@@ -9,13 +9,13 @@ License: GPLv3
 BuildRequires: cmake
 BuildRequires: ninja
 BuildRequires: cmake(ECM)
-BuildRequires: cmake(KF5WindowSystem)
-BuildRequires: cmake(Qt5Core)
-BuildRequires: cmake(Qt5Gui)
-BuildRequires: cmake(Qt5LinguistTools)
-BuildRequires: cmake(Qt5Svg)
-BuildRequires: cmake(Qt5Widgets)
-BuildRequires: cmake(Qt5X11Extras)
+BuildRequires: cmake(KF6WindowSystem)
+BuildRequires: cmake(Qt6Core)
+BuildRequires: cmake(Qt6Gui)
+BuildRequires: cmake(Qt6LinguistTools)
+BuildRequires: cmake(Qt6Svg)
+BuildRequires: cmake(Qt6Widgets)
+#BuildRequires: cmake(Qt5X11Extras)
 
 %description
 Kvantum is an SVG-based theme engine for Qt, tuned to KDE and LXQt, with
@@ -34,13 +34,13 @@ installation and can be selected and activated by using Kvantum Manager.
 
 %prep
 %autosetup -p1 -n Kvantum-%{version}/Kvantum
-%cmake_kde5 .
+%cmake .
 
 %build
-%ninja_build -C build
+%make_build
 
 %install
-%ninja_install -C build
+%make_install -C build
 
 # We don't need obsolete stuff
 rm -rf %{buildroot}%{_datadir}/kde4
