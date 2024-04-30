@@ -30,7 +30,7 @@ they be photorealistic or cartoonish, 3D or flat, embellished or
 minimalistic, or something in between, and Kvantum will let you control
 almost every aspect of Qt widgets.
 
-Kvantum also comes with extra themes that are installed as root with Qt5
+Kvantum also comes with extra themes that are installed as root with Qt6
 installation and can be selected and activated by using Kvantum Manager.
 
 %prep
