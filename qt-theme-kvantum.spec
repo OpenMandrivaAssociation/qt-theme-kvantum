@@ -15,6 +15,7 @@ BuildRequires: cmake(Qt6Gui)
 BuildRequires: cmake(Qt6LinguistTools)
 BuildRequires: cmake(Qt6Svg)
 BuildRequires: cmake(Qt6Widgets)
+BuildRequires: qt6-qtbase-theme-gtk3
 #BuildRequires: cmake(Qt5X11Extras)
 
 %description
@@ -34,9 +35,9 @@ installation and can be selected and activated by using Kvantum Manager.
 
 %prep
 %autosetup -p1 -n Kvantum-%{version}/Kvantum
-%cmake .
 
 %build
+%cmake
 %make_build
 
 %install
