@@ -52,7 +52,7 @@ rm -rf %{buildroot}%{_datadir}/kde4
 %license COPYING
 %{_bindir}/kvantummanager
 %{_bindir}/kvantumpreview
-#{_libdir}/qt5/plugins/styles/libkvantum.so
+%{_libdir}/qt6/plugins/styles/libkvantum.so
 %dir %{_datadir}/Kvantum
 %{_datadir}/Kvantum/KvAdapta
 %{_datadir}/color-schemes/KvAdapta.colors
