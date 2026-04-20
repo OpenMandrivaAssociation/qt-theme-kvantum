@@ -6,6 +6,7 @@ URL: https://github.com/tsujan/Kvantum
 Source0: https://github.com/tsujan/Kvantum/archive/V%{version}/Kvantum-%{version}.tar.gz
 Group: Graphical Desktop/KDE
 License: GPLv3
+BuildRequires: make
 BuildRequires: cmake
 BuildRequires: ninja
 BuildRequires: cmake(ECM)
