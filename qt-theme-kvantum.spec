@@ -1,6 +1,6 @@
 Name: qt-theme-kvantum
 Summary: Kvantum - an SVG renderer for drawing Qt widgets - theme engine
-Version: 1.1.6
+Version: 1.1.8
 Release: 1
 URL: https://github.com/tsujan/Kvantum
 Source0: https://github.com/tsujan/Kvantum/archive/V%{version}/Kvantum-%{version}.tar.gz
@@ -33,7 +33,7 @@ Kvantum also comes with extra themes that are installed as root with Qt6
 installation and can be selected and activated by using Kvantum Manager.
 
 %prep
-%autosetup -p1 -n Kvantum-%{version}/Kvantum
+%autosetup -p1 -n Kvantum-1.1.8
 
 %build
 %cmake
