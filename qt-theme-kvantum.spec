@@ -33,13 +33,15 @@ Kvantum also comes with extra themes that are installed as root with Qt6
 installation and can be selected and activated by using Kvantum Manager.
 
 %prep
-%autosetup -p1 -n Kvantum-1.1.8
+%autosetup -p1 -n Kvantum-%{version}
 
 %build
+pushd Kvantum
 %cmake
 %make_build
 
 %install
+pushd Kvantum
 %make_install -C build
 
 # We don't need obsolete stuff
