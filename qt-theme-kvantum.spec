@@ -47,9 +47,10 @@ pushd Kvantum
 # We don't need obsolete stuff
 rm -rf %{buildroot}%{_datadir}/kde4
 
-%find_lang kvantum --all-name --with-qt
+#find_lang kvantum --all-name --with-qt
 
-%files -f kvantum.lang
+%files
+#-f kvantum.lang
 %license COPYING
 %{_bindir}/kvantummanager
 %{_bindir}/kvantumpreview
