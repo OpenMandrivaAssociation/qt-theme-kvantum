@@ -51,7 +51,6 @@ rm -rf %{buildroot}%{_datadir}/kde4
 
 %files
 #-f kvantum.lang
-%license COPYING
 %{_bindir}/kvantummanager
 %{_bindir}/kvantumpreview
 %{_libdir}/qt6/plugins/styles/libkvantum.so
